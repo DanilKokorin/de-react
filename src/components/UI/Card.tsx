@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { Hotel } from '../data/hotels'
+import { Hotel } from '../../types'
 
 export const Card = (props: Hotel) => {
   return (

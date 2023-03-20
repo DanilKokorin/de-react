@@ -1,9 +1,9 @@
 import * as React from "react";
-import { Home } from './components/Home'
-import { Hotel } from "./data/hotels";
+import { Main } from './pages/Main'
+import { Hotel } from "./types/types";
 
 export const App = (props: Hotel[]) => {
   return (
-    <Home {...props} />
+    <Main {...props} />
   )
 }

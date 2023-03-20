@@ -1,9 +1,7 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { App } from './App'
-import { hotels, Hotel } from './data/hotels'
-
-const hotelsList: Hotel[] = hotels
+import { hotels } from './data/hotels'
 
 const container = document.getElementById('root')!
 const root = createRoot(container)

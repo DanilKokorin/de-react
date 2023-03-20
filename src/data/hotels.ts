@@ -1,18 +1,9 @@
-import firstAp from '../markup/img/apartment-01.jpg'
-import firstroom from '../markup/img/room.jpg'
-import secondAp from '../markup/img/apartment-02.jpg'
-import thirdAp from '../markup/img/apartment-03.jpg'
-import secondRoom from '../markup/img/room.jpg'
-
-export type Hotel = {
-  premium: boolean;
-  img: string;
-  price: number,
-  inBookmarks: boolean,
-  rating: number,
-  title: string,
-  hotelType: string
-}
+import firstAp from '../styles/img/apartment-01.jpg'
+import firstroom from '../styles/img/room.jpg'
+import secondAp from '../styles/img/apartment-02.jpg'
+import thirdAp from '../styles/img/apartment-03.jpg'
+import secondRoom from '../styles/img/room.jpg'
+import { Hotel } from '../types/types'
 
 export const hotels: Hotel[] = [
   {
