@@ -1,8 +1,8 @@
 import * as React from 'react'
-import '../styles/css/main.css'
-import logo from '../styles/img/logo.svg'
+import '../assets/css/main.css'
+import logo from '../assets/resource/logo.svg'
 import { Card } from '../components/UI/Card'
-import { Hotel } from '../type/types'
+import { Hotel } from '../type'
 
 export const Main = (props: Hotel[]) => {
   return (

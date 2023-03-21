@@ -1,8 +1,8 @@
-import firstAp from '../styles/img/apartment-01.jpg'
-import firstroom from '../styles/img/room.jpg'
-import secondAp from '../styles/img/apartment-02.jpg'
-import thirdAp from '../styles/img/apartment-03.jpg'
-import secondRoom from '../styles/img/room.jpg'
+import firstAp from '../assets/resource/apartment-01.jpg'
+import firstroom from '../assets/resource/room.jpg'
+import secondAp from '../assets/resource/apartment-02.jpg'
+import thirdAp from '../assets/resource/apartment-03.jpg'
+import secondRoom from '../assets/resource/room.jpg'
 import { Hotel } from '../type/types'
 
 export const hotels: Hotel[] = [
