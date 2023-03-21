@@ -3,6 +3,5 @@ import { createRoot } from 'react-dom/client'
 import { App } from './App'
 import { hotels } from './data/hotels'
 
-const container = document.getElementById('root')!
-const root = createRoot(container)
+const root = createRoot(document.getElementById('root') as HTMLElement);
 root.render(<App {...hotels} />)

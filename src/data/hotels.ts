@@ -3,7 +3,7 @@ import firstroom from '../styles/img/room.jpg'
 import secondAp from '../styles/img/apartment-02.jpg'
 import thirdAp from '../styles/img/apartment-03.jpg'
 import secondRoom from '../styles/img/room.jpg'
-import { Hotel } from '../types/types'
+import { Hotel } from '../type/types'
 
 export const hotels: Hotel[] = [
   {

@@ -2,7 +2,7 @@ import * as React from 'react'
 import '../styles/css/main.css'
 import logo from '../styles/img/logo.svg'
 import { Card } from '../components/UI/Card'
-import { Hotel } from '../types/types'
+import { Hotel } from '../type/types'
 
 export const Main = (props: Hotel[]) => {
   return (
