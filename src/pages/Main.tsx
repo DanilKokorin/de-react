@@ -1,6 +1,6 @@
-import * as React from 'react'
+import { Outlet } from 'react-router-dom'
 import '../assets/css/main.css'
-import logo from '../assets/resource/logo.svg'
+import logo from '../assets/img/logo.svg'
 import { Card } from '../components/UI/Card'
 import { Hotel } from '../type'
 
@@ -100,8 +100,8 @@ export const Main = (props: Hotel[]) => {
                 </form>
                 <div className="cities__places-list places__list tabs__content">
                   {
-                    Object.values(props).map((hotel: Hotel, i: number) => (
-                      <Card key={i + hotel.price} {...hotel} />
+                    Object.values(props).map((hotel: Hotel) => (
+                      <Card key={hotel.id} {...hotel} />
                     ))
                   }
                 </div>

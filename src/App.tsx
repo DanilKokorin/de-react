@@ -1,9 +1,7 @@
 import * as React from "react";
-import { Main } from './pages/Main'
-import { Hotel } from "./type/types";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routes/routes";
 
-export const App = (props: Hotel[]) => {
-  return (
-    <Main {...props} />
-  )
+export const App = () => {
+  return <RouterProvider router={router} fallbackElement={<p>Loading...</p>} />
 }

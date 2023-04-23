@@ -1,4 +1,11 @@
-import React from 'react'
+import logo from '../assets/img/logo.svg'
+import room from '../assets/img/room.jpg'
+import appOne from '../assets/img/apartment-01.jpg'
+import appTwo from '../assets/img/apartment-02.jpg'
+import appThree from '../assets/img/apartment-03.jpg'
+import studio from '../assets/img/studio-01.jpg'
+import avatarAngelina from '../assets/img/avatar-angelina.jpg'
+import avatarMax from '../assets/img/avatar-max.jpg'
 
 export const Property = () => {
   return (
@@ -13,7 +20,7 @@ export const Property = () => {
             <div className="header__wrapper">
               <div className="header__left">
                 <a className="header__logo-link" href="main.html">
-                  <img className="header__logo" src="img/logo.svg" alt="6 cities logo" width="81" height="41" />
+                  <img className="header__logo" src={logo} alt="6 cities logo" width="81" height="41" />
                 </a>
               </div>
               <nav className="header__nav">
@@ -41,22 +48,22 @@ export const Property = () => {
             <div className="property__gallery-container container">
               <div className="property__gallery">
                 <div className="property__image-wrapper">
-                  <img className="property__image" src="img/room.jpg" alt="Photo studio" />
+                  <img className="property__image" src={room} alt="Photo studio" />
                 </div>
                 <div className="property__image-wrapper">
-                  <img className="property__image" src="img/apartment-01.jpg" alt="Photo studio" />
+                  <img className="property__image" src={appOne} alt="Photo studio" />
                 </div>
                 <div className="property__image-wrapper">
-                  <img className="property__image" src="img/apartment-02.jpg" alt="Photo studio" />
+                  <img className="property__image" src={appTwo} alt="Photo studio" />
                 </div>
                 <div className="property__image-wrapper">
-                  <img className="property__image" src="img/apartment-03.jpg" alt="Photo studio" />
+                  <img className="property__image" src={appThree} alt="Photo studio" />
                 </div>
                 <div className="property__image-wrapper">
-                  <img className="property__image" src="img/studio-01.jpg" alt="Photo studio" />
+                  <img className="property__image" src={studio} alt="Photo studio" />
                 </div>
                 <div className="property__image-wrapper">
-                  <img className="property__image" src="img/apartment-01.jpg" alt="Photo studio" />
+                  <img className="property__image" src={appOne} alt="Photo studio" />
                 </div>
               </div>
             </div>
@@ -137,7 +144,7 @@ export const Property = () => {
                   <h2 className="property__host-title">Meet the host</h2>
                   <div className="property__host-user user">
                     <div className="property__avatar-wrapper property__avatar-wrapper--pro user__avatar-wrapper">
-                      <img className="property__avatar user__avatar" src="img/avatar-angelina.jpg" width="74" height="74" alt="Host avatar" />
+                      <img className="property__avatar user__avatar" src={avatarAngelina} width="74" height="74" alt="Host avatar" />
                     </div>
                     <span className="property__user-name">
                       Angelina
@@ -161,7 +168,7 @@ export const Property = () => {
                     <li className="reviews__item">
                       <div className="reviews__user user">
                         <div className="reviews__avatar-wrapper user__avatar-wrapper">
-                          <img className="reviews__avatar user__avatar" src="img/avatar-max.jpg" width="54" height="54" alt="Reviews avatar" />
+                          <img className="reviews__avatar user__avatar" src={avatarMax} width="54" height="54" alt="Reviews avatar" />
                         </div>
                         <span className="reviews__user-name">
                           Max
@@ -239,7 +246,7 @@ export const Property = () => {
                 <article className="near-places__card place-card">
                   <div className="near-places__image-wrapper place-card__image-wrapper">
                     <a href="#">
-                      <img className="place-card__image" src="img/room.jpg" width="260" height="200" alt="Place image" />
+                      <img className="place-card__image" src={room} width="260" height="200" alt="Place image" />
                     </a>
                   </div>
                   <div className="place-card__info">
@@ -271,7 +278,7 @@ export const Property = () => {
                 <article className="near-places__card place-card">
                   <div className="near-places__image-wrapper place-card__image-wrapper">
                     <a href="#">
-                      <img className="place-card__image" src="img/apartment-02.jpg" width="260" height="200" alt="Place image" />
+                      <img className="place-card__image" src={appTwo} width="260" height="200" alt="Place image" />
                     </a>
                   </div>
                   <div className="place-card__info">
@@ -306,7 +313,7 @@ export const Property = () => {
                   </div>
                   <div className="near-places__image-wrapper place-card__image-wrapper">
                     <a href="#">
-                      <img className="place-card__image" src="img/apartment-03.jpg" width="260" height="200" alt="Place image" />
+                      <img className="place-card__image" src={appThree} width="260" height="200" alt="Place image" />
                     </a>
                   </div>
                   <div className="place-card__info">

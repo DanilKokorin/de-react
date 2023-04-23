@@ -1,6 +1,6 @@
-import logo from '../assets/img/logo.svg'
+import logo from '../../assets/img/logo.svg'
 
-export const Login = () => {
+export const SignUp = () => {
   return (
     <>
       <div style={{display: 'none'}}>
@@ -19,11 +19,11 @@ export const Login = () => {
             </div>
           </div>
         </header>
-
+        
         <main className="page__main page__main--login">
           <div className="page__login-container container">
             <section className="login">
-              <h1 className="login__title">Sign in</h1>
+              <h1 className="login__title">Sign up<br /><br />You are not logged in<br /> Please sign up and log in to proceed</h1>
               <form className="login__form form" action="#" method="post">
                 <div className="login__input-wrapper form__input-wrapper">
                   <label className="visually-hidden">E-mail</label>
@@ -33,7 +33,7 @@ export const Login = () => {
                   <label className="visually-hidden">Password</label>
                   <input className="login__input form__input" type="password" name="password" placeholder="Password" required={false} />
                 </div>
-                <button className="login__submit form__submit button" type="submit">Sign in</button>
+                <button className="login__submit form__submit button" type="submit">Sign up</button>
               </form>
             </section>
             <section className="locations locations--login locations--current">
